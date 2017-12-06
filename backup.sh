@@ -7,5 +7,7 @@ echo "backup private to $STORAGE_PATH"
 
 mkdir -p $STORAGE_PATH
 
+uname -a > $STORAGE_PATH/log
+
 mkdir $STORAGE_PATH/.ssh
 cp $HOME/.ssh/config $STORAGE_PATH/.ssh/config
