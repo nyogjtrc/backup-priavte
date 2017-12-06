@@ -11,3 +11,4 @@ uname -a > $STORAGE_PATH/log
 
 mkdir $STORAGE_PATH/.ssh
 cp $HOME/.ssh/config $STORAGE_PATH/.ssh/config
+cp /etc/hosts $STORAGE_PATH/hosts
